@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
 
+    // in order to access the slider, a reference variable to this slider is required (UISlider)
+    IBOutlet UISlider *slider;
+    
+    // UILabel reference variable (display slide value on label)
+    IBOutlet UILabel *msgLabel;
+}
+
+// define an action to be performed then user changes value of slider
+- (IBAction)slideChanged;
 
 @end
 

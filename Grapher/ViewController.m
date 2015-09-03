@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+// read current slider value
+- (void)slideChanged {
+    NSString *msg = [NSString stringWithFormat:@"Value %f", slider.value];
+    
+    // print message to console
+    NSLog(msg);
+    
+    // print message to label
+    [msgLabel setText:msg];
+}
+
 @end
