@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 S Takahashi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
+#import "GrapherView.h"
 
 @interface ViewController : UIViewController {
 
@@ -15,6 +16,9 @@
     
     // UILabel reference variable (display slide value on label)
     IBOutlet UILabel *msgLabel;
+    
+    // GrapherView reference variable (apply slider value to canvas size)
+    IBOutlet GrapherView *grapher;
 }
 
 // define an action to be performed then user changes value of slider

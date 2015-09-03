@@ -13,4 +13,6 @@
     int n;
 }
 
+- (void)setRadius:(float)newRadius;
+
 @end

@@ -32,7 +32,7 @@ const int pi = 3.1416;
     CGContextBeginPath(context);
     
     n = 10;
-    radius = 0.5f;
+    //radius = 0.5f;
     
     for(int i=0; i<n; i++) {
         for (int j=i+1; j<n; j++) {
@@ -53,6 +53,11 @@ const int pi = 3.1416;
 
 - (float)yForPoint:(int)i {
     return radius*sin(i*2.0/n*pi);
+}
+
+- (void)setRadius:(float)newRadius {
+    radius = newRadius;
+    [self setNeedsDisplay];
 }
 
 

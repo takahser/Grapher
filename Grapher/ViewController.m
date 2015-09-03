@@ -33,6 +33,9 @@
     
     // print message to label
     [msgLabel setText:msg];
+    
+    // change canvas size
+    [grapher setRadius:slider.value];
 }
 
 @end

@@ -37,6 +37,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="grapher" destination="ovt-HB-TCK" id="HVU-Hr-mTu"/>
                         <outlet property="msgLabel" destination="j2j-wZ-Lkb" id="dEZ-q8-rCT"/>
                         <outlet property="slider" destination="uls-8U-QNy" id="WHx-QI-z9w"/>
                     </connections>
