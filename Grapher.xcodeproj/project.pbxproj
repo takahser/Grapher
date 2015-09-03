@@ -14,6 +14,7 @@
 		701BAFDC1B97F1D800EB3A90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701BAFDB1B97F1D800EB3A90 /* Images.xcassets */; };
 		701BAFDF1B97F1D800EB3A90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701BAFDD1B97F1D800EB3A90 /* LaunchScreen.xib */; };
 		701BAFEB1B97F1D800EB3A90 /* GrapherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BAFEA1B97F1D800EB3A90 /* GrapherTests.m */; };
+		701BAFF61B97F20700EB3A90 /* GrapherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 701BAFF51B97F20700EB3A90 /* GrapherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		701BAFE41B97F1D800EB3A90 /* GrapherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701BAFE91B97F1D800EB3A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701BAFEA1B97F1D800EB3A90 /* GrapherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrapherTests.m; sourceTree = "<group>"; };
+		701BAFF41B97F20700EB3A90 /* GrapherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrapherView.h; sourceTree = "<group>"; };
+		701BAFF51B97F20700EB3A90 /* GrapherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrapherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		701BAFC21B97F1D800EB3A90 = {
 			isa = PBXGroup;
 			children = (
+				701BAFF41B97F20700EB3A90 /* GrapherView.h */,
+				701BAFF51B97F20700EB3A90 /* GrapherView.m */,
 				701BAFCD1B97F1D800EB3A90 /* Grapher */,
 				701BAFE71B97F1D800EB3A90 /* GrapherTests */,
 				701BAFCC1B97F1D800EB3A90 /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701BAFF61B97F20700EB3A90 /* GrapherView.m in Sources */,
 				701BAFD71B97F1D800EB3A90 /* ViewController.m in Sources */,
 				701BAFD41B97F1D800EB3A90 /* AppDelegate.m in Sources */,
 				701BAFD11B97F1D800EB3A90 /* main.m in Sources */,
